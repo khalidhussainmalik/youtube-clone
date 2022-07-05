@@ -5,6 +5,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import VideoCallIcon from "@material-ui/icons/VideoCall";
 import AppsIcon from "@material-ui/icons/Apps";
 import logo from "./images/logo.webp";
+import avatar from './images/khalid.jpg'
 import { Notifications } from "@material-ui/icons";
 import { Avatar } from "@material-ui/core";
 
@@ -25,7 +26,7 @@ function Header() {
       <VideoCallIcon className="header-icon" />
       <AppsIcon className="header-icon" />
       <Notifications className="header-icon" />
-      <Avatar className="header-icon" alt="avatar" src={logo} />
+      <Avatar className="header-icon" alt="avatar" src={avatar} />
       </div>
     </div>
   );
