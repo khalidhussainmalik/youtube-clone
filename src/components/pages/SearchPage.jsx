@@ -4,7 +4,7 @@ import TuneOutlinedIcon from "@mui/icons-material/TuneOutlined";
 import ChannelRow from "./ChannelRow";
 import cp from "../images/cp.jfif";
 import VideoRow from "./VideoRow";
-import YouTube from '../images/logo.webp'
+import rPic from '../images/react.jfif'
 
 function SearchPage() {
   return (
@@ -30,7 +30,43 @@ function SearchPage() {
         timestamp='1 day ago'
         channel="Clever Programmer"
         title='Lets build a youtube clone with REACT JS'
-        image={YouTube}
+        image={rPic}
+      />
+      <VideoRow
+        views="2.5M"
+        subs="987K"
+        description="In this video we hav build a fully functional youtube clone using Reactjs and Firebase"
+        timestamp='1 day ago'
+        channel="Clever Programmer"
+        title='Lets build a youtube clone with REACT JS'
+        image={rPic}
+      />
+      <VideoRow
+        views="2.5M"
+        subs="987K"
+        description="In this video we hav build a fully functional youtube clone using Reactjs and Firebase"
+        timestamp='1 day ago'
+        channel="Clever Programmer"
+        title='Lets build a youtube clone with REACT JS'
+        image={rPic}
+      />
+      <VideoRow
+        views="2.5M"
+        subs="987K"
+        description="In this video we hav build a fully functional youtube clone using Reactjs and Firebase"
+        timestamp='1 day ago'
+        channel="Clever Programmer"
+        title='Lets build a youtube clone with REACT JS'
+        image={rPic}
+      />
+      <VideoRow
+        views="2.5M"
+        subs="987K"
+        description="In this video we hav build a fully functional youtube clone using Reactjs and Firebase"
+        timestamp='1 day ago'
+        channel="Clever Programmer"
+        title='Lets build a youtube clone with REACT JS'
+        image={rPic}
       />
     </div>
   );
