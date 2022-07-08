@@ -1,8 +1,12 @@
 import React from 'react';
 import './RecomendedVideos.css'
 import VideoCard from './VideoCard';
-import fullstack from './images/fullstack.png'
-import fullstack1 from './images/fullstack1.jfif'
+import jwad from './images/jwad.png'
+import devnation from './images/devnation.jfif';
+import awad from './images/awad.png'
+import dsc from './images/dsc.png'
+import fullstack from './images/fullstack.png';
+import pwe from './images/pwe.jpg'
 import js from './images/javascript.jfif';
 import rt from './images/react.jfif'
 
@@ -11,27 +15,35 @@ function RecomendedVideos() {
     <div className='recomended-videos'>
       <h2>Recomended</h2>
       <div className="recomendedVideos-videos">
-        <VideoCard 
-          title="Fullstack web development in 2022"
-          views="5.3k Views"
-          timestamp="2 days ago"
-          channelImage={fullstack}
-          channel="Programming with Ease"
-          image={fullstack}
+      <VideoCard 
+          title="Junior Web App Development"
+          views="1.3k Views"
+          timestamp="1 year ago"
+          channelImage={devnation}
+          channel="DevNation"
+          image={jwad}
         />
         <VideoCard 
-          title="Become a fullstack web dveloper in 6 hours"
-          views="27k Views"
+          title="Data Science - Complete Course"
+          views="2.7k Views"
           timestamp="1 month ago"
-          channelImage=""
-          channel="DevelopNation"
-          image={fullstack1}
+          channelImage={devnation}
+          channel="DevNation"
+          image={dsc}
+        />
+        <VideoCard 
+          title="Advance Web App Development"
+          views="5.3k Views"
+          timestamp="5 months ago"
+          channelImage={devnation}
+          channel="DevNation"
+          image={awad}
         />
         <VideoCard 
           title="Javascript Explained in 30 minutes"
           views="367k Views"
           timestamp="2 years ago"
-          channelImage=""
+          channelImage={pwe}
           channel="Programming with Ease"
           image={js}
         />
@@ -39,25 +51,17 @@ function RecomendedVideos() {
           title="React Properties in 1 hour"
           views="978k Views"
           timestamp="4 months ago"
-          channelImage=""
+          channelImage={pwe}
           channel="Programming with Ease"
           image={rt}
         />
         <VideoCard 
-          title="Become a web dveloper in 2022"
-          views="2.5M Views"
-          timestamp="2 year ago"
+          title="Become a fullstack web dveloper in 6 hours"
+          views="27k Views"
+          timestamp="1 month ago"
           channelImage=""
-          channel="Programming with Ease"
-          image=""
-        />
-        <VideoCard 
-          title="Become a web dveloper in 2022"
-          views="2.5M Views"
-          timestamp="2 days ago"
-          channelImage=""
-          channel="Programming with Ease"
-          image=""
+          channel="DevelopNation"
+          image={fullstack}
         />
       </div>
     </div>

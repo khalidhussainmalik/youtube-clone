@@ -4,7 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from "@mui/icons-material/Search";
 import VideoCallIcon from "@mui/icons-material/VideoCall";
 import AppsIcon from "@mui/icons-material/Apps";
-import logo from "./images/logo.webp";
+import logo from "./images/logo.png";
 import avatar from "./images/khalid.jpg";
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import Avatar from "@mui/material/Avatar";
